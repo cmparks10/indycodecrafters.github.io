@@ -1,0 +1,49 @@
+/* Add some basic styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Styling for header */
+header {
+    background-color: #333;
+    padding: 20px 0;
+    position: fixed; /* Fix the header at the top */
+    top: 0; /* Position the header at the top of the viewport */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Set z-index to make sure it's above other content */
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px; /* Adjust height as needed */
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Adjust top margin of sections to compensate for fixed header */
+section {
+    margin-top: 80px; /* Adjust as needed based on the header height */
+}

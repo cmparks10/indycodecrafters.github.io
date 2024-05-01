@@ -2,135 +2,162 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indy Code Crafters</title>
-    <!-- CSS Styles -->
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indy Code Crafters</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="header-styles.css">
 </head>
 
 <body>
-    <!-- Header Section -->
-    <header>
-        <div class="container">
-            <div class="logo">
-                <img src="logo.png" alt="Indy Code Crafters">
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="logo.png" alt="Indy Code Crafters">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <h1>Crafting Innovative Solutions for Your Digital Needs</h1>
-            <a href="#contact" class="cta-button">Get Started</a>
-        </div>
-    </section>
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>Crafting Innovative Solutions for Your Digital Needs</h1>
+      <a href="#contact" class="cta-button">Get Started</a>
+    </div>
+  </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <p>We specialize in:</p>
-            <ul>
-                <li>Front End Application Development</li>
-                <li>Back End Application Development</li>
-                <li>Maintenance</li>
-                <li>Upgrades</li>
-                <li>Security</li>
-                <li>SEO</li>
-                <li>Web Design and Development</li>
-            </ul>
-        </div>
-    </section>
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <p>We specialize in:</p>
+      <ul>
+        <li>Front End Application Development</li>
+        <li>Back End Application Development</li>
+        <li>Maintenance</li>
+        <li>Upgrades</li>
+        <li>Security</li>
+        <li>SEO</li>
+        <li>Web Design and Development</li>
+      </ul>
+    </div>
+  </section>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <h2>Portfolio</h2>
-            <!-- Portfolio Gallery -->
-            <div class="portfolio-gallery">
-                <!-- Example Project -->
-                <div class="project">
-                    <img src="project1.jpg" alt="Project 1">
-                    <h3>Project 1</h3>
-                    <p>Description of Project 1</p>
-                    <a href="#">View Details</a>
-                </div>
-                <!-- Repeat for other projects -->
-            </div>
-        </div>
-    </section>
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="portfolio-gallery">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="project1.jpg" style="width:100%">
+            <div class="text">Project 1</div>
+          </div>
 
-    <!-- About Us Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>Indy Code Crafters is a team of passionate developers and designers dedicated to crafting innovative digital solutions for our clients. Our mission is to exceed expectations and deliver results that drive success.</p>
-            <!-- Team Members -->
-            <div class="team-members">
-                <!-- Example Team Member -->
-                <div class="team-member">
-                    <img src="team1.jpg" alt="John Doe">
-                    <h3>John Doe</h3>
-                    <p>Lead Developer</p>
-                </div>
-                <!-- Repeat for other team members -->
-            </div>
-        </div>
-    </section>
+          <div class="mySlides fade">
+            <img src="project2.jpg" style="width:100%">
+            <div class="text">Project 2</div>
+          </div>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <form action="submit_form.php" method="post">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-            <div class="contact-info">
-                <p>For inquiries, you can also reach us at:</p>
-                <p>Phone: 123-456-7890</p>
-                <p>Email: info@indycodecrafters.com</p>
-                <p>Address: 123 Main St, Anytown, USA</p>
-            </div>
-        </div>
-    </section>
+          <div class="mySlides fade">
+            <img src="project3.jpg" style="width:100%">
+            <div class="text">Project 3</div>
+          </div>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="social-links">
-                <a href="#"><img src="facebook.png" alt="Facebook"></a>
-                <a href="#"><img src="twitter.png" alt="Twitter"></a>
-                <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
-            </div>
-            <p>&copy; 2024 Indy Code Crafters. All rights reserved.</p>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-    </footer>
+      </div>
+    </div>
+  </section>
 
-    <!-- JavaScript -->
-    <script src="script.js"></script>
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Indy Code Crafters is a team of passionate developers and designers dedicated to crafting innovative digital solutions for our clients. Our mission is to exceed expectations and deliver results that drive success.</p>
+      <div class="team-members">
+        <div class="team-member">
+          <img src="team1.jpg" alt="John Doe">
+          <h3>John Doe</h3>
+          <p>Lead Developer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form action="submit_form.php" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="contact-info">
+        <p>For inquiries, you can also reach us at:</p>
+        <p>Phone: 123-456-7890</p>
+        <p>Email: info@indycodecrafters.com</p>
+        <p>Address: 123 Main St, Anytown, USA</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scrolling functionality
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Slideshow functionality
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      slides[slideIndex-1].style.display = "block";
+    }
+  </script>
 </body>
 
 </html>

@@ -58,17 +58,10 @@ nav ul li a {
 }
 
 /* Hero Section Styles */
-/* .hero {
+.hero {
     background-image: url('hero-bg.jpg');
     background-size: cover;
     background-position: center;
-    text-align: center;
-    color: #fff;
-    padding: 100px 20px;
-} */
-
-.hero {
-    background-image: linear-gradient(to bottom right, #ff9900, #ff5f6d);
     text-align: center;
     color: #fff;
     padding: 100px 20px;
@@ -78,6 +71,12 @@ nav ul li a {
     font-size: 24px;
     margin-bottom: 20px;
 }
+
+.hero h1,
+.hero a {
+    color: #000; /* Set text color to black */
+}
+
 
 .cta-button {
     display: inline-block;
